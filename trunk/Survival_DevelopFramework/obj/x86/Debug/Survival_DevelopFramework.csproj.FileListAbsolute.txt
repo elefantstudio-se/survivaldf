@@ -1,0 +1,29 @@
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\bin\x86\Debug\Survival_DevelopFramework.exe
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\bin\x86\Debug\Survival_DevelopFramework.pdb
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\obj\x86\Debug\Survival_DevelopFramework.exe
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\obj\x86\Debug\Survival_DevelopFramework.pdb
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\bin\x86\Debug\FarseerPhysics.dll
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\bin\x86\Debug\FarseerPhysics.pdb
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\bin\x86\Debug\Content\GameandMe.xnb
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\bin\x86\Debug\Content\bg.xnb
+D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\bin\x86\Debug\Content\zhuzhen.xnb
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\bin\x86\Debug\Content\GameandMe.xnb
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\bin\x86\Debug\Content\bg.xnb
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\bin\x86\Debug\Content\zhuzhen.xnb
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\bin\x86\Debug\Survival_DevelopFramework.exe
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\bin\x86\Debug\Survival_DevelopFramework.pdb
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\obj\x86\Debug\Survival_DevelopFramework.exe
+F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\obj\x86\Debug\Survival_DevelopFramework.pdb
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\GameandMe.xnb
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\bg.xnb
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\zhuzhen.xnb
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Survival_DevelopFramework.exe
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Survival_DevelopFramework.pdb
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\obj\x86\Debug\Survival_DevelopFramework.exe
+E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\obj\x86\Debug\Survival_DevelopFramework.pdb

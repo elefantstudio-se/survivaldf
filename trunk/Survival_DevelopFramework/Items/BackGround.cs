@@ -20,9 +20,6 @@ namespace Survival_DevelopFramework.Items
     {
         public BG()
         {
-            InitSelf();
-            ContentLoad();
-            
         }
         private Texture2D texture;
         private int X;

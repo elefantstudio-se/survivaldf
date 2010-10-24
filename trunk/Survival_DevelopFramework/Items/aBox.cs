@@ -20,9 +20,6 @@ namespace Survival_DevelopFramework.Items
     {
         public aBox()
         {
-            InitSelf();
-            ContentLoad();
-            
         }
         private Texture2D texture;
         private Body body;
@@ -30,19 +27,19 @@ namespace Survival_DevelopFramework.Items
         private int X;
         private int Y;
 
-        public void DrawSelf()
+        void ItemBase.DrawSelf()
         {
             Painter.Instance.DrawT(texture, body.Position, body.Rotation, 0.5f);
         }
-        public void UpdateSelf()
+        void ItemBase.UpdateSelf()
         {
 
         }
-        public void ContentLoad()
+        void ItemBase.ContentLoad()
         {
             texture = LoadHelper.Content.Load<Texture2D>("GameandMe");
         }
-        public void InitSelf()
+        void ItemBase.InitSelf()
         { 
             X = 200;
             Y = 100;

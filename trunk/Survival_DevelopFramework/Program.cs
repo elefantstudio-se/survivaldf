@@ -1,5 +1,6 @@
 ﻿using System;
-using Survival_DevelopFramework.GraphicSystem;
+using Survival_DevelopFramework.Items.DramaManager;
+using Survival_DevelopFramework.Items;
 
 namespace Survival_DevelopFramework
 {
@@ -10,11 +11,20 @@ namespace Survival_DevelopFramework
         /// </summary>
         static void Main(string[] args)
         {
-           
-            using (Survival_Game game = new Survival_Game())
-            {
-                game.Run();
-           }
+            //using (Survival_Game game = new Survival_Game("Game"))
+            //{
+            //    game.Run();
+            //}
+
+
+            // Uint Test
+
+            // ----   绘制级   ----
+             AnimItem.UnitTest();
+            // Role.UnitTest();
+
+            // ---- Manager 级 ----
+            // DramaMgr.UnitTest();
         }
     }
 }

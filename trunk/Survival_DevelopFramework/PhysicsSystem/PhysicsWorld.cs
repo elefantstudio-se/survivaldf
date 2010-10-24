@@ -13,8 +13,22 @@ namespace Survival_DevelopFramework.PhysicsSystem
 {
     class PhysicsSys
     {
+        #region Variables
+        //物理模拟系统
+        private PhysicsSimulator mPhysicsSimulator;
+        public PhysicsSimulator PhysicsSimulator
+        {
+            get { return mPhysicsSimulator; }
+        }
+        //重力
+        private Vector2 Gvec;
+        #endregion
+
         #region 单件
         private static PhysicsSys instance = null;
+        /// <summary>
+        /// 单件
+        /// </summary>
         public static PhysicsSys Instance
         {
             get
@@ -26,31 +40,20 @@ namespace Survival_DevelopFramework.PhysicsSystem
                 return instance;
             }
         }
-        #endregion
-
-        #region 物理变量
-        //物理模拟系统
-        private PhysicsSimulator mPhysicsSimulator;
-        public PhysicsSimulator PhysicsSimulator
+        /// <summary>
+        /// 私有构造函数
+        /// </summary>
+        private PhysicsSys()
         {
-            get { return mPhysicsSimulator; }
-        }
-       //重力
-        private Vector2 Gvec;
-        #endregion
-
-        #region 初始化
-        public void InitPhysics()
-        {
-            Gvec = new Vector2(0,100.0f);
+            Gvec = new Vector2(0, 1.0f);
             mPhysicsSimulator = new PhysicsSimulator(Gvec);
         }
         #endregion
 
-        #region 物理方法组
-        public void UpdatePhysics(float dt)
+        #region Update
+        public void Update()
         {
-            mPhysicsSimulator.Update(dt);
+            mPhysicsSimulator.Update(BaseGame.ElapsedTimeThisFrameInMilliseconds * 0.001f);
         }
         #endregion
     }

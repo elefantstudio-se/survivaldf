@@ -7,66 +7,56 @@ using Microsoft.Xna.Framework;
 
 namespace Survival_DevelopFramework.GraphicSystem
 {
-    class Painter
+    static class Painter
     {
-        #region 单件
-        private static Painter instance = null;
-        public static Painter Instance
-        {
-            get
-            {
-                if (instance == null)
-                {
-                    instance = new Painter();
-                }
-                return instance;
-            }
-        }
-        #endregion
-
         #region 绘图变量
-        private SpriteBatch mSpriteBatch;
-        private GraphicsDevice mGraphicsDevice;
-        public GraphicsDevice GraphicsDevice
-        {
-            get{return mGraphicsDevice;}
-        }
-        #endregion
-
-        #region 初始化
-        public void initGraphics(SpriteBatch sb,GraphicsDevice gd)
-        {
-            mSpriteBatch = sb;
-            mGraphicsDevice = gd;
-        }
+        static private GraphicsDevice mGraphicsDevice = BaseGame.Device;
+        static private SpriteBatch mSpriteBatch = new SpriteBatch(mGraphicsDevice);
         #endregion
 
         #region 绘制的方法组
         //begin
-        public void DrawBegin()
+        static public void DrawBegin()
         { 
             mSpriteBatch.Begin();
         }
         //end
-        public void DrawEnd()
+        static public void DrawEnd()
         { 
             mSpriteBatch.End();
         }
         //一下均为 demo所用，到时候要重写
         //按大小位置绘制一张texture2D矩形
-        public void DrawT(Texture2D texture,Vector2 position,float rotation,float scale)
+        static public void DrawT(Texture2D texture, Vector2 position, float rotation, float scale)
         {
             mSpriteBatch.Draw(texture, position, null, Color.White, rotation, new Vector2(texture.Width / 2, texture.Height / 2), scale, SpriteEffects.None, 0);
         }
 
-        public void PlayA(Texture2D texture, Vector2 position, float rotation, float scale, Rectangle frect, int fnum, int fofrow, int i)
+        static public void DrawT(Texture2D texture, Rectangle srcRect, Vector2 position, Vector2 origin,float rotation, float scale)
         {
-            Rectangle currentrect = new Rectangle(frect.X + i % fofrow * frect.Width,
-                                                        frect.Y + i / fofrow * frect.Height,
-                                                        frect.Width,
-                                                        frect.Height);
-            mSpriteBatch.Draw(texture, position,currentrect, Color.White, rotation, new Vector2(texture.Width / 2, texture.Height / 2),scale, SpriteEffects.None, 0);
+            mSpriteBatch.Draw(texture, position, srcRect, Color.White, rotation, origin, scale, SpriteEffects.None, 0);
         }
+        static public void DrawT(Texture2D texture, Rectangle srcRect, Vector2 position, float rotation, float scale)
+        {
+            mSpriteBatch.Draw(texture, position, srcRect, Color.White, rotation, new Vector2(texture.Width / 2, texture.Height / 2), scale, SpriteEffects.None, 0);
+        }
+        static public void DrawT(Texture2D texture, Vector2 position, Color color)
+        {
+            mSpriteBatch.Draw(texture,position,color);
+        }
+        static public void DrawT(Texture2D texture, Rectangle srcRect, Rectangle destRect)
+        {
+            mSpriteBatch.Draw(texture, srcRect, destRect,Color.White);
+        }
+        static public void DrawT(Texture2D texture, Rectangle srcRect, Rectangle destRect, Color color)
+        {
+            mSpriteBatch.Draw(texture, srcRect, destRect, color);
+        }
+        static public void DrawT(Texture2D texture, Rectangle destRect)
+        {
+            mSpriteBatch.Draw(texture, destRect,Color.White);
+        }
+
         #endregion
     }
 }

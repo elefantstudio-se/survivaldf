@@ -1,3 +1,11 @@
 Content\GameandMe.xnb
 Content\bg.xnb
 Content\zhuzhen.xnb
+Content\Textures\GameUI.xnb
+Content\Textures\HolyMountain.xnb
+Content\Textures\Sui.xnb
+Content\Textures\Tina.xnb
+Content\Dramas\Default.Dra
+Content\Dramas\Dialog.Dra
+Content\Dramas\Fellow.Dra
+Content\Dramas\Intro.Dra

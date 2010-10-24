@@ -5,14 +5,28 @@ using System.Text;
 using Survival_DevelopFramework.Items;
 using Survival_DevelopFramework.GraphicSystem;
 using Survival_DevelopFramework.PhysicsSystem;
+using Microsoft.Xna.Framework;
+using Survival_DevelopFramework.GameManager;
+using Survival_DevelopFramework.Items.DramaManager;
+using Survival_DevelopFramework.Helpers;
 
 namespace Survival_DevelopFramework.SceneManager
 {
-    class SceneMgr
+    class SceneMgr:ItemMgr
     {
+        #region Variable
+        /// <summary>
+        /// 摄像机
+        /// </summary>
+        public Camera camera = null;
+        #endregion
+
         #region 单件
-        private static SceneMgr instance = null;
-        public static SceneMgr Instance
+        private new static SceneMgr instance = null;
+        /// <summary>
+        /// 单例
+        /// </summary>
+        public new static SceneMgr Instance
         {
             get
             {
@@ -23,57 +37,53 @@ namespace Survival_DevelopFramework.SceneManager
                 return instance;
             }
         }
-        #endregion
-
-        #region 构造函数（初始化ItemList）
+        /// <summary>
+        /// 私有构造函数
+        /// </summary>
         private SceneMgr()
         {
-            ItemList = new List<ItemBase>();
+            // 进行初始化处理...
 
-            //***DEMO 添加了一个静态sbox和一个背景BG,一个动画，以及一个受键盘控制的非物理box,
-            ItemList.Add(new BG());
-            ItemList.Add(new sBox());
-            ItemList.Add(new cBox());
-            ItemList.Add(new anim());
-            
         }
         #endregion
 
-        private List<ItemBase> ItemList;
-
-        #region 场景管理方法组
-        //添加item
-        public void addItem()
-        {
-            ItemList.Add(new aBox());
-        }
-
+        #region Update
         //更新所有item
-        public void UpdateItemList()
+        public override void Update()
         {
-            foreach(ItemBase ib in ItemList)
-            ib.UpdateSelf();
+            foreach (ItemBase item in itemList)
+            {
+                item.Update();
+            }
         }
-        
+        #endregion
+
+        #region Draw
         //绘制所有item
-        public void DrawItemList()
+        public override void Draw()
         {
-            Painter.Instance.DrawBegin();
-
-            foreach (ItemBase ib in ItemList)
-                ib.DrawSelf();
-
-            Painter.Instance.DrawEnd();
+            foreach (ItemBase item in itemList)
+            {
+                item.Draw();
+            }
         }
+        #endregion
 
-        public void ClearItemList()
+
+        public override void ClearItemList()
         {
-            //清空item列表
-            ItemList.Clear();
+            base.ClearItemList();
             // 重置物理模拟环境
             PhysicsSys.Instance.PhysicsSimulator.Clear();
         }
 
-        #endregion
+        /// <summary>
+        /// 使用SceneData构建SceneMgr的Item列表
+        /// </summary>
+        /// <param name="sceneData"></param>
+        public void LoadSceneData(SceneData sceneData)
+        {
+
+        }
     }
 }

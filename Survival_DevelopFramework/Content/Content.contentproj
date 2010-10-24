@@ -1,6 +1,6 @@
 ﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
   <PropertyGroup>
-    <ProjectGuid>7a004d25-63cb-4318-84af-f2052870bdf7</ProjectGuid>
+    <ProjectGuid>57ecc3be-b132-4b73-bb28-a34991090107</ProjectGuid>
     <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -38,31 +38,79 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\..\XNA\Farseer Physics 2.1.3 XNA with simple samples\Farseer Physics 2.1.3 XNA with simple samples\Farseer Physics 2.1.3 XNA\FarseerPhysicsXNA.csproj">
-      <Project>{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}</Project>
-      <Name>FarseerPhysicsXNA</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="GameandMe.png">
-      <Name>GameandMe</Name>
+    <None Include="Dramas\Default.Dra">
+      <Name>Default</Name>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Importer>XmlImporter</Importer>
+    </None>
+    <None Include="Dramas\Dialog.Dra">
+      <Name>Dialog</Name>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Importer>XmlImporter</Importer>
+    </None>
+    <None Include="Dramas\Fellow.Dra">
+      <Name>Fellow</Name>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Importer>XmlImporter</Importer>
+    </None>
+    <None Include="Dramas\Intro.Dra">
+      <Name>Intro</Name>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Importer>XmlImporter</Importer>
+    </None>
+    <Compile Include="Textures\Soldier.png">
+      <Name>Soldier</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <None Include="utf8.txt">
+      <Name>utf8</Name>
+    </None>
+    <Compile Include="Textures\WoodBracelet.png">
+      <Name>WoodBracelet</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bg.jpg">
+    <Compile Include="Textures\bg.jpg">
       <Name>bg</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="zhuzhen.jpg">
+    <Compile Include="Textures\GameandMe.png">
+      <Name>GameandMe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\GameUI.png">
+      <Name>GameUI</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\HolyMountain.png">
+      <Name>HolyMountain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Sui.png">
+      <Name>Sui</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Tina.png">
+      <Name>Tina</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\zhuzhen.jpg">
       <Name>zhuzhen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scenes\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

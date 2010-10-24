@@ -20,30 +20,27 @@ namespace Survival_DevelopFramework.Items
     {
         public cBox()
         {
-            InitSelf();
-            ContentLoad();
-            
         }
         private Texture2D texture;
         private int X;
         private int Y;
 
-        public void DrawSelf()
+        void ItemBase.DrawSelf()
         {
             Painter.Instance.DrawT(texture, new Vector2 (X,Y), 0, 0.3f);
         }
-        public void UpdateSelf()
+        void ItemBase.UpdateSelf()
         {
             if (InputKeyboards.Instance.isKeyPress(Keys.Left)) X--;
             if (InputKeyboards.Instance.isKeyPress(Keys.Right )) X++;
             if (InputKeyboards.Instance.isKeyPress(Keys.Up )) Y--;
             if (InputKeyboards.Instance.isKeyPress(Keys.Down)) Y++;
         }
-        public void ContentLoad()
+        void ItemBase.ContentLoad()
         {
             texture = LoadHelper.Content.Load<Texture2D>("GameandMe");
         }
-        public void InitSelf()
+        void ItemBase.InitSelf()
         { 
             X = 300;
             Y = 300;

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Survival_DevelopFramework_1.0")]
-[assembly: AssemblyProduct("Survival_DevelopFramework_1.0")]
+[assembly: AssemblyTitle("Survival_DevelopFramework")]
+[assembly: AssemblyProduct("Survival_DevelopFramework")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyCompany("微软中国")]
+[assembly: AssemblyCompany("")]
 
-[assembly: AssemblyCopyright("Copyright © 微软中国 2010")]
+[assembly: AssemblyCopyright("Copyright ©  2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f03781bf-2d87-49a5-abbb-d37e6e3a2f7e")]
+[assembly: Guid("8add9bed-7140-49db-b593-2f4ce6a644c3")]
 
 
 // Version information for an assembly consists of the following four values:

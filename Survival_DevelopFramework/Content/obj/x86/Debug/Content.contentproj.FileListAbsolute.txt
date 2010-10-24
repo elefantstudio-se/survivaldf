@@ -1,3 +1,2 @@
-D:\我的文档\Documents\Visual Studio 2008\XNA\Survival_DevelopFramework_1.0\Survival_DevelopFramework_1.0\Content\obj\x86\Debug\ResolveAssemblyReference.cache
-F:\Users\Administrator\Downloads\Survival_DevelopFramework_1.01\Survival_DevelopFramework_1.0\Content\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\folder\Projects_OnMesh_抽出\Survival_DevelopFramework\Survival_DevelopFramework\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\Content\obj\x86\Debug\ResolveAssemblyReference.cache

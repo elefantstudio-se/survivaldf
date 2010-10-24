@@ -2,41 +2,95 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>GameandMe.png</Source>
-      <Name>GameandMe</Name>
+      <Source>Textures\bg.jpg</Source>
+      <Name>Textures\bg</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\GameandMe.xnb</Output>
-      <Time>2010-10-19T16:19:30.8963923+08:00</Time>
-    </Item>
-    <Item>
-      <Source>bg.jpg</Source>
-      <Name>bg</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\bg.xnb</Output>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\bg.xnb</Output>
       <Time>2010-10-19T16:33:03.1977807+08:00</Time>
     </Item>
     <Item>
-      <Source>zhuzhen.jpg</Source>
-      <Name>zhuzhen</Name>
+      <Source>Textures\GameandMe.png</Source>
+      <Name>Textures\GameandMe</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\zhuzhen.xnb</Output>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\GameandMe.xnb</Output>
+      <Time>2010-10-19T16:19:30.8963923+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\GameUI.png</Source>
+      <Name>Textures\GameUI</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\GameUI.xnb</Output>
+      <Time>2010-10-20T20:44:54.4751834+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HolyMountain.png</Source>
+      <Name>Textures\HolyMountain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\HolyMountain.xnb</Output>
+      <Time>2010-10-20T20:44:43.6155622+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Sui.png</Source>
+      <Name>Textures\Sui</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Sui.xnb</Output>
+      <Time>2010-10-20T20:44:43.6415637+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Tina.png</Source>
+      <Name>Textures\Tina</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Tina.xnb</Output>
+      <Time>2010-10-20T20:44:43.646564+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\zhuzhen.jpg</Source>
+      <Name>Textures\zhuzhen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\zhuzhen.xnb</Output>
       <Time>2010-10-19T17:52:57.2188208+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\WoodBracelet.png</Source>
+      <Name>Textures\WoodBracelet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\WoodBracelet.xnb</Output>
+      <Time>2010-10-21T17:42:03.6328844+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Soldier.png</Source>
+      <Name>Textures\Soldier</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Soldier.xnb</Output>
+      <Time>2010-10-23T20:27:13.4768308+08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\Content\</RootDirectory>
-      <LoggerRootDirectory>E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\folder\Projects_OpenSource\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\Content\</RootDirectory>
+      <LoggerRootDirectory>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

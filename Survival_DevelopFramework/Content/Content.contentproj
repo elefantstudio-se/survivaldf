@@ -18,6 +18,10 @@
     <XnaPlatform>Windows</XnaPlatform>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FontProcessor, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\FontProcessor.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
@@ -38,67 +42,52 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Dramas\Default.Dra">
-      <Name>Default</Name>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Importer>XmlImporter</Importer>
-    </None>
     <None Include="Dramas\Dialog.Dra">
       <Name>Dialog</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Importer>XmlImporter</Importer>
     </None>
-    <None Include="Dramas\Fellow.Dra">
-      <Name>Fellow</Name>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Importer>XmlImporter</Importer>
-    </None>
-    <None Include="Dramas\Intro.Dra">
-      <Name>Intro</Name>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Importer>XmlImporter</Importer>
-    </None>
-    <Compile Include="Textures\Soldier.png">
+    <Compile Include="Textures\Roles\Soldier.png">
       <Name>Soldier</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
+    <Compile Include="Fonts\Default.spritefont">
+      <Name>Default</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>ContentProcessor1</Processor>
+    </Compile>
     <None Include="utf8.txt">
       <Name>utf8</Name>
     </None>
-    <Compile Include="Textures\WoodBracelet.png">
-      <Name>WoodBracelet</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Textures\bg.jpg">
+    <Compile Include="Textures\Backgrounds\bg.jpg">
       <Name>bg</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Textures\GameandMe.png">
+    <Compile Include="Textures\Terrains\GameandMe.png">
       <Name>GameandMe</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Textures\GameUI.png">
+    <Compile Include="Textures\UI\GameUI.png">
       <Name>GameUI</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Textures\HolyMountain.png">
+    <Compile Include="Textures\Backgrounds\HolyMountain.png">
       <Name>HolyMountain</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Textures\Sui.png">
+    <Compile Include="Textures\Faces\Sui.png">
       <Name>Sui</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Textures\Tina.png">
+    <Compile Include="Textures\Faces\Tina.png">
       <Name>Tina</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -110,7 +99,72 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Scenes\" />
+    <Compile Include="Textures\UI\MouseCursor.png">
+      <Name>MouseCursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Bound.png">
+      <Name>Bound</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scenes\TestSceneYard.scn">
+      <Name>TestSceneYard</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Compile Include="Textures\Terrains\Tile_Both.png">
+      <Name>Tile_Both</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <None Include="Scenes\TestSceneRoom.scn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TestSceneRoom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </None>
+    <Compile Include="Textures\Body.png">
+      <Name>Body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\GameandMe.png">
+      <Name>GameandMe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Terrains\Tile_Horizontal.png">
+      <Name>Tile_Horizontal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Obstacle.png">
+      <Name>Obstacle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Textures\Switch.png">
+      <Name>Switch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Textures\Backgrounds\Ocean.jpg">
+      <Name>Ocean</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Textures\Items\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

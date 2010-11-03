@@ -1,6 +1,7 @@
 ﻿using System;
-using Survival_DevelopFramework.Items.DramaManager;
+using Survival_DevelopFramework.Items.MovieManager;
 using Survival_DevelopFramework.Items;
+using Survival_DevelopFramework.SceneManager;
 
 namespace Survival_DevelopFramework
 {
@@ -19,12 +20,15 @@ namespace Survival_DevelopFramework
 
             // Uint Test
 
-            // ----   绘制级   ----
-             AnimItem.UnitTest();
+            // ----    Item    ----
+            // ItemBase.UnitTest();
+            // AnimItem.UnitTest();
             // Role.UnitTest();
 
             // ---- Manager 级 ----
             // DramaMgr.UnitTest();
+            // ItemMgr.UnitTest();
+             SceneData.UnitTest();
         }
     }
 }

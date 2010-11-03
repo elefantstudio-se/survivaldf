@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SceneData>
+  <terrainDataList>
+    <!-- 第1块 -->
+    <TerrainData>
+      <frictionCoefficient>1</frictionCoefficient>
+      <position>
+        <X>400</X>
+        <Y>550</Y>
+      </position>
+      <size>
+        <X>700</X>
+        <Y>100</Y>
+      </size>
+      <rotation>0</rotation>
+      <textureName>GameandMe</textureName>
+      <layer>0</layer>
+    </TerrainData>
+    <!-- 第2块 -->
+    <TerrainData>
+      <frictionCoefficient>1</frictionCoefficient>
+      <position>
+        <X>25</X>
+        <Y>300</Y>
+      </position>
+      <size>
+        <X>50</X>
+        <Y>600</Y>
+      </size>
+      <rotation>0</rotation>
+      <textureName>GameandMe</textureName>
+      <layer>0</layer>
+    </TerrainData>
+    <!-- 第3块 -->
+    <TerrainData>
+      <frictionCoefficient>1</frictionCoefficient>
+      <position>
+        <X>400</X>
+        <Y>25</Y>
+      </position>
+      <size>
+        <X>700</X>
+        <Y>50</Y>
+      </size>
+      <rotation>0</rotation>
+      <textureName>GameandMe</textureName>
+      <layer>0</layer>
+    </TerrainData>
+    <!-- 第4块 -->
+    <TerrainData>
+      <frictionCoefficient>1</frictionCoefficient>
+      <position>
+        <X>775</X>
+        <Y>100</Y>
+      </position>
+      <size>
+        <X>50</X>
+        <Y>200</Y>
+      </size>
+      <rotation>0</rotation>
+      <textureName>GameandMe</textureName>
+      <layer>0</layer>
+    </TerrainData>
+    <!-- 第5块 -->
+    <TerrainData>
+      <frictionCoefficient>1</frictionCoefficient>
+      <position>
+        <X>775</X>
+        <Y>450</Y>
+      </position>
+      <size>
+        <X>50</X>
+        <Y>300</Y>
+      </size>
+      <rotation>0</rotation>
+      <textureName>GameandMe</textureName>
+      <layer>0</layer>
+    </TerrainData>
+    <!-- 第6块 -->
+    <TerrainData>
+      <frictionCoefficient>1</frictionCoefficient>
+      <position>
+        <X>675</X>
+        <Y>325</Y>
+      </position>
+      <size>
+        <X>150</X>
+        <Y>50</Y>
+      </size>
+      <rotation>0</rotation>
+      <textureName>GameandMe</textureName>
+      <layer>0</layer>
+    </TerrainData>
+    <!-- 第7块 -->
+    <TerrainData>
+      <frictionCoefficient>1</frictionCoefficient>
+      <position>
+        <X>508</X>
+        <Y>417</Y>
+      </position>
+      <size>
+        <X>300</X>
+        <Y>50</Y>
+      </size>
+      <rotation>-0.73</rotation>
+      <textureName>GameandMe</textureName>
+      <layer>0</layer>
+    </TerrainData>
+  </terrainDataList>
+  <tiledTerrainDataList></tiledTerrainDataList>
+  <activeItems></activeItems>
+  <triggers></triggers>
+</SceneData>

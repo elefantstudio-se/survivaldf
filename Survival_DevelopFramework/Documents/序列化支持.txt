@@ -1,0 +1,30 @@
+﻿Item的派生类序列化
+-- Edit Tankid --
+
+
+1. 保证ItemOne的所有字段都有初始值，可以是已知的默认值，不能为null	
+	- 除非能够保证xml文件中一定保存它们的值
+
+2. 为ItemOne设置一个数据类ItemOneData
+	- 保证ItemOneData的字段都是简单数据类型
+	- ItemOneData的字段按照从基类派生的顺序排列
+	* 参考：TerrainData TiledTerrainData 字段
+	
+3. 为ItemOne添加一个使用ItemOneData作为参数的构造函数
+	- 该函数中，从基类开始设置字段、载入资源
+	- 注意基类层可能存在一些特殊设置要求 -- 支持动画/位置原点 等等
+	* 参考：Terrain TiledTerrain 构造函数
+	
+4. 在SceneData中添加ItemOneData的管理
+	- 字段区域中，为ItemOneData添加一个List/Directory （派生序列化需要特殊的设置，因此不能够保存在基类集合中）
+	* 参考：rectTerrainDataList tiledTerrainDataList
+
+5. 在SceneMgr中添加对SceneData的处理
+	- 添加ItemOne对应的ItemMgr以及更新和绘制调用，或者决定将它的实例保存在已有的基类ItemMgr中
+	* 参考：terrainMgr
+	- LoadScene中添加使用ItemData构造的ItemOne实例
+	
+	
+	
+	
+	

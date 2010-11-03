@@ -10,6 +10,11 @@ namespace Survival_DevelopFramework.InputSystem
 {
     static class InputMouse
     {
+        #region Constants
+        // 点击有效范围
+        public const int ClickSize = 2;
+        #endregion
+
         #region Variables
         /// <summary>
         /// 前一次键盘状态
@@ -92,5 +97,10 @@ namespace Survival_DevelopFramework.InputSystem
             return false;
         }
         #endregion
+
+        public static Rectangle GetMouseClickRect()
+        {
+            return new Rectangle(posX - ClickSize, posY - ClickSize, ClickSize * 2 + 1, ClickSize * 2 + 1);
+        }
     }
 }

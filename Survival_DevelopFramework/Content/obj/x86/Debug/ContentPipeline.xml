@@ -2,13 +2,134 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Textures\bg.jpg</Source>
-      <Name>Textures\bg</Name>
+      <Source>Textures\zhuzhen.jpg</Source>
+      <Name>Textures\zhuzhen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\bg.xnb</Output>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\zhuzhen.xnb</Output>
+      <Time>2010-10-19T17:52:57.2188208+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Default.spritefont</Source>
+      <Name>Fonts\Default</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>ContentProcessor1</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Fonts\Default.xnb</Output>
+      <Time>2010-11-01T18:16:34.8142405+08:00</Time>
+      <Dependency>
+        <Key>utf8.txt</Key>
+        <Value>2010-11-01T18:16:07.4255436+08:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Textures\Obstical.png</Source>
+      <Name>Textures\Obstical</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Obstical.xnb</Output>
+      <Time>2010-10-31T15:35:03.6978139+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Switch.png</Source>
+      <Name>Textures\Switch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Switch.xnb</Output>
+      <Time>2010-10-31T15:34:58.279504+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Roles\Soldier.png</Source>
+      <Name>Textures\Roles\Soldier</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Roles\Soldier.xnb</Output>
+      <Time>2010-10-23T20:27:13.4768308+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Backgrounds\bg.jpg</Source>
+      <Name>Textures\Backgrounds\bg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Backgrounds\bg.xnb</Output>
       <Time>2010-10-19T16:33:03.1977807+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\UI\GameUI.png</Source>
+      <Name>Textures\UI\GameUI</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\UI\GameUI.xnb</Output>
+      <Time>2010-10-20T20:44:54.4751834+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Backgrounds\HolyMountain.png</Source>
+      <Name>Textures\Backgrounds\HolyMountain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Backgrounds\HolyMountain.xnb</Output>
+      <Time>2010-10-20T20:44:43.6155622+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Faces\Sui.png</Source>
+      <Name>Textures\Faces\Sui</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Faces\Sui.xnb</Output>
+      <Time>2010-10-20T20:44:43.6415637+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Faces\Tina.png</Source>
+      <Name>Textures\Faces\Tina</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Faces\Tina.xnb</Output>
+      <Time>2010-10-20T20:44:43.646564+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\UI\MouseCursor.png</Source>
+      <Name>Textures\UI\MouseCursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\UI\MouseCursor.xnb</Output>
+      <Time>2010-10-29T15:41:50.2974475+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Terrains\Tile_Both.png</Source>
+      <Name>Textures\Terrains\Tile_Both</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Terrains\Tile_Both.xnb</Output>
+      <Time>2010-10-31T15:34:45.3257631+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Terrains\Tile_Horizontal.png</Source>
+      <Name>Textures\Terrains\Tile_Horizontal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Terrains\Tile_Horizontal.xnb</Output>
+      <Time>2010-11-02T15:28:37.5457636+08:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Terrains\GameandMe.png</Source>
+      <Name>Textures\Terrains\GameandMe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Terrains\GameandMe.xnb</Output>
+      <Time>2010-10-19T16:19:30.8963923+08:00</Time>
     </Item>
     <Item>
       <Source>Textures\GameandMe.png</Source>
@@ -16,81 +137,45 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\GameandMe.xnb</Output>
-      <Time>2010-10-19T16:19:30.8963923+08:00</Time>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\GameandMe.xnb</Output>
+      <Time>2010-11-01T16:52:20.5968078+08:00</Time>
     </Item>
     <Item>
-      <Source>Textures\GameUI.png</Source>
-      <Name>Textures\GameUI</Name>
+      <Source>Textures\Bound.png</Source>
+      <Name>Textures\Bound</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\GameUI.xnb</Output>
-      <Time>2010-10-20T20:44:54.4751834+08:00</Time>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Bound.xnb</Output>
+      <Time>2010-10-29T19:08:38.0121282+08:00</Time>
     </Item>
     <Item>
-      <Source>Textures\HolyMountain.png</Source>
-      <Name>Textures\HolyMountain</Name>
+      <Source>Textures\Body.png</Source>
+      <Name>Textures\Body</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\HolyMountain.xnb</Output>
-      <Time>2010-10-20T20:44:43.6155622+08:00</Time>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Body.xnb</Output>
+      <Time>2010-11-01T18:29:58.934905+08:00</Time>
     </Item>
     <Item>
-      <Source>Textures\Sui.png</Source>
-      <Name>Textures\Sui</Name>
+      <Source>Textures\Backgrounds\Ocean.jpg</Source>
+      <Name>Textures\Backgrounds\Ocean</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Sui.xnb</Output>
-      <Time>2010-10-20T20:44:43.6415637+08:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Tina.png</Source>
-      <Name>Textures\Tina</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Tina.xnb</Output>
-      <Time>2010-10-20T20:44:43.646564+08:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\zhuzhen.jpg</Source>
-      <Name>Textures\zhuzhen</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\zhuzhen.xnb</Output>
-      <Time>2010-10-19T17:52:57.2188208+08:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\WoodBracelet.png</Source>
-      <Name>Textures\WoodBracelet</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\WoodBracelet.xnb</Output>
-      <Time>2010-10-21T17:42:03.6328844+08:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Soldier.png</Source>
-      <Name>Textures\Soldier</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Soldier.xnb</Output>
-      <Time>2010-10-23T20:27:13.4768308+08:00</Time>
+      <Output>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\Textures\Backgrounds\Ocean.xnb</Output>
+      <Time>2010-11-03T12:23:29.6075271+08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\Content\</RootDirectory>
-      <LoggerRootDirectory>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\folder\Projects_OnMesh_抽出\tem\Survival_DevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\Content\</RootDirectory>
+      <LoggerRootDirectory>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -116,6 +201,10 @@
       <Assembly>
         <Key>F:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
         <Value>2009-05-28T00:16:06+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\folder\Projects_OpenSource\SDF\SurvivalDevelopFramework\Survival_DevelopFramework\Dll\FontProcessor.dll</Key>
+        <Value>2010-10-19T17:50:51.9756708+08:00</Value>
       </Assembly>
       <Assembly>
         <Key>F:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>

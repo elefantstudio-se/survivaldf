@@ -45,7 +45,7 @@ namespace Survival_DevelopFramework.PhysicsSystem
         /// </summary>
         private PhysicsSys()
         {
-            Gvec = new Vector2(0, 1.0f);
+            Gvec = new Vector2(0, 100.0f);
             mPhysicsSimulator = new PhysicsSimulator(Gvec);
         }
         #endregion

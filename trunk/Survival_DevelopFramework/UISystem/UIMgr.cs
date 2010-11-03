@@ -3,17 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Survival_DevelopFramework.Items;
-using Survival_DevelopFramework.Items.DramaManager;
+using Survival_DevelopFramework.Items.MovieManager;
+using Survival_DevelopFramework.Items.UIItems;
+using Survival_DevelopFramework.Helpers;
 
 namespace Survival_DevelopFramework.UISystem
 {
     class UIMgr:ItemMgr
     {
         #region Variables
+        MouseCursor mouseCursor;
         #endregion
 
-        #region Instance
-        protected new static UIMgr instance;
+        #region Constructor
+        protected static UIMgr instance;
         /// <summary>
         /// 单例
         /// </summary>
@@ -37,7 +40,8 @@ namespace Survival_DevelopFramework.UISystem
         /// </summary>
         protected UIMgr()
         {
-            // 进行初始化处理...
+            // 进行初始化处理
+            mouseCursor = new MouseCursor("./UI/MouseCursor");
 
         }
         #endregion
@@ -46,6 +50,7 @@ namespace Survival_DevelopFramework.UISystem
         public override void Update()
         {
             DramaMgr.Instance.Update();
+            mouseCursor.Update();
             base.Update();
         }
         #endregion
@@ -54,6 +59,7 @@ namespace Survival_DevelopFramework.UISystem
         public override void Draw()
         {
             DramaMgr.Instance.Draw();
+            mouseCursor.Draw();
             base.Draw();
         }
         #endregion

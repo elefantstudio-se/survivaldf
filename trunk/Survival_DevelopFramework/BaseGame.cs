@@ -226,7 +226,5 @@ namespace Survival_DevelopFramework
             base.Draw(gameTime);
         }
         #endregion
-
-
     }
 }

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
 
 namespace Survival_DevelopFramework
 {
-    public partial class TestGame : BaseGame
+    public partial class TestGame : Survival_Game
     {
         #region Variables
         /// <summary>

@@ -13,34 +13,37 @@ using FarseerGames.FarseerPhysics.Collisions;
 using FarseerGames.FarseerPhysics.Controllers;
 using FarseerGames.FarseerPhysics.Dynamics;
 using FarseerGames.FarseerPhysics.Factories;
+using Survival_DevelopFramework.SceneManager;
+using Survival_DevelopFramework.ItemDatas;
 
 namespace Survival_DevelopFramework.Items
 {
-    class BG : ItemBase
+    /// <summary>
+    /// 静态背景
+    /// </summary>
+    class Background : ItemBase
     {
-        public BG()
+        public Background(String texturePath)
+            : base(texturePath)
         {
         }
-        private Texture2D texture;
-        private int X;
-        private int Y;
+        public Background(BackgroundData backgroundData)
+        {
+            // ItemBase
+            texture = LoadHelper.LoadTexture2D("Backgrounds/"+backgroundData.textureName);
+            layer = backgroundData.layer;
 
-        public void DrawSelf()
-        {
-            Painter.Instance.DrawT(texture, new Vector2(X,Y),0, 1.0f);
+            // Background
         }
-        public void UpdateSelf()
+
+        public override void Draw()
+        {
+            Rectangle destRect = new Rectangle(0,0,BaseGame.Width,BaseGame.Height);
+            Painter.DrawT(texture, destRect);
+        }
+        public override void Update()
         {
 
-        }
-        public void ContentLoad()
-        {
-            texture = LoadHelper.Content.Load<Texture2D>("bg");
-        }
-        public void InitSelf()
-        { 
-            X =Painter.Instance.GraphicsDevice.Viewport.Width /2;
-            Y = Painter.Instance.GraphicsDevice.Viewport.Height /2;
         }
     }
 }
